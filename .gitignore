@@ -1,0 +1,17 @@
+# Secrets / local env
+.env
+.env.*
+
+# Editor / install copies
+.cursor/
+.vscode/
+
+# Live state if someone runs the skill from this tree
+bobbin/coach-summary.txt
+bobbin/settings.json
+bobbin/coach-notes.md
+.bobbin-park/
+
+# Python
+__pycache__/
+*.py[cod]
