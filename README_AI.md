@@ -50,7 +50,15 @@ Bobbin also gives you a **shared vocabulary** of state names so you and other ag
 
 ### Installation
 
-1. Copy `bobbin/` from this repo to `.cursor/skills/bobbin` in the project (or `~/.cursor/skills/bobbin` for every project).
+1. From the project you want bobbin in:
+
+```bash
+npx skills add ezra-labs-ai/bobbin-skill -a cursor
+```
+
+Use `-g` to install for every project (`~/.cursor/skills/bobbin`).
+
+Or copy `bobbin/` from this repo to `.cursor/skills/bobbin` (or `~/.cursor/skills/bobbin`).
 2. Add live-state files to that project's `.gitignore`:
 
 ```gitignore
