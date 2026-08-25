@@ -150,4 +150,4 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## Versioning
 
-Current version: **0.1.0**. Bobbin follows [Semantic Versioning](https://semver.org/). See [docs/VERSIONING.md](docs/VERSIONING.md) and [CHANGELOG.md](CHANGELOG.md).
+Current version: **0.1.1**. Bobbin follows [Semantic Versioning](https://semver.org/). See [docs/VERSIONING.md](docs/VERSIONING.md) and [CHANGELOG.md](CHANGELOG.md).
