@@ -131,18 +131,13 @@ Scripts print a short ASCII line and stop. Glyphs live in the catalog.
 | [`bobbin/`](bobbin/) | The install unit — skill, scripts, references, tools |
 | [`bobbin/references/PROCEDURE.md`](bobbin/references/PROCEDURE.md) | Name procedure |
 | [`bobbin/references/states-v2-03.md`](bobbin/references/states-v2-03.md) | State catalog |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to fork, branch, and open a PR into `dev` |
 | [`CHANGELOG.md`](CHANGELOG.md) | Notable changes |
 | [`docs/VERSIONING.md`](docs/VERSIONING.md) | Semver + branching |
 
 ## Contributing
 
-Other language ports of the recovery scripts are welcome. Prefer clear names, kind defaults, and ASCII stdout to match the Python set.
-
-1. Fork the repo
-2. Create a feature branch off `dev`
-3. Open a pull request into `dev`
-
-Branching details live in [docs/VERSIONING.md](docs/VERSIONING.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md). Other language ports of the recovery scripts are welcome. Fork, branch off `dev`, and open a pull request into `dev`.
 
 ## License
 
@@ -150,4 +145,4 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## Versioning
 
-Current version: **0.1.1**. Bobbin follows [Semantic Versioning](https://semver.org/). See [docs/VERSIONING.md](docs/VERSIONING.md) and [CHANGELOG.md](CHANGELOG.md).
+Current version: **0.1.2**. Bobbin follows [Semantic Versioning](https://semver.org/). See [docs/VERSIONING.md](docs/VERSIONING.md) and [CHANGELOG.md](CHANGELOG.md).
