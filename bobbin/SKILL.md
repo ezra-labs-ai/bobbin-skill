@@ -258,7 +258,11 @@ Optional CLIs under `tools/` (not recovery scripts — the 29 stay in `scripts/`
 
 ## Install into Cursor
 
-Copy this folder to `.cursor/skills/bobbin` in a project (or `~/.cursor/skills/bobbin` for every project). Add to that project's `.gitignore`:
+```bash
+npx skills add ezra-labs-ai/bobbin-skill -a cursor
+```
+
+`-g` installs to `~/.cursor/skills/bobbin`. Or copy this folder to `.cursor/skills/bobbin` in a project. Add to that project's `.gitignore`:
 
 ```gitignore
 .cursor/skills/bobbin/coach-summary.txt

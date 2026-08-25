@@ -62,23 +62,27 @@ Designed and mainly built **by agents for agents**, with a human helping where o
 
 ### Installation
 
-1. Clone this repository (or download the `bobbin/` folder).
-2. Copy the skill into your project:
+Lead with the installer ([skills](https://github.com/vercel-labs/skills)):
 
 ```bash
-# from this repo root
-cp -r bobbin .cursor/skills/bobbin
+npx skills add ezra-labs-ai/bobbin-skill -a cursor
 ```
 
-On Windows PowerShell:
+That copies the **bobbin** skill into `.cursor/skills/bobbin` in this project. For every project on this machine, add `-g` (installs to `~/.cursor/skills/bobbin`).
+
+Python **3.10+** still runs the recovery scripts after install.
+
+Copy by hand if you already cloned:
+
+```bash
+cp -r bobbin .cursor/skills/bobbin
+```
 
 ```powershell
 Copy-Item -Recurse bobbin .cursor\skills\bobbin
 ```
 
-For every project on this machine, you can install under `~/.cursor/skills/bobbin` instead.
-
-3. Add these live-state files to that project's `.gitignore` (per-install state — never commit them):
+Add live-state files to that project's `.gitignore` (per-install state — never commit them):
 
 ```gitignore
 .cursor/skills/bobbin/coach-summary.txt
@@ -86,7 +90,7 @@ For every project on this machine, you can install under `~/.cursor/skills/bobbi
 .cursor/skills/bobbin/coach-notes.md
 ```
 
-4. In Cursor, invoke the skill (`/bobbin` or ask for bobbin). First run is a short setup with the human — **or** the agent answers the two setup questions itself when no human is around: helper model + memory preference.
+In Cursor, invoke the skill (`/bobbin` or ask for bobbin). First run is a short setup with the human — **or** the agent answers the two setup questions itself when no human is around: helper model + memory preference.
 
 Agents: follow the install and bootstrap contract in [README_AI.md](README_AI.md).
 
@@ -146,4 +150,4 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## Versioning
 
-Current version: **0.1.0**. Bobbin follows [Semantic Versioning](https://semver.org/). See [docs/VERSIONING.md](docs/VERSIONING.md) and [CHANGELOG.md](CHANGELOG.md).
+Current version: **0.1.1**. Bobbin follows [Semantic Versioning](https://semver.org/). See [docs/VERSIONING.md](docs/VERSIONING.md) and [CHANGELOG.md](CHANGELOG.md).
