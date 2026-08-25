@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Install lead: `npx skills add ezra-labs-ai/bobbin-skill -a cursor` (CLI already discovers the `bobbin` skill). Copy-install stays as the fallback. Python 3.10+ still runs the scripts.
+
 ### Changed
 
 ### Removed
