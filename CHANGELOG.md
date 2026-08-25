@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+### Changed
+
+### Removed
+
+### Fixed
+
+## [0.1.2] - 2026-08-24
+
+### Added
+
 - [CONTRIBUTING.md](CONTRIBUTING.md) — how to fork, branch off `dev`, and open a pull request into `dev`. Language ports of the recovery scripts stay welcome.
 
 ### Changed
